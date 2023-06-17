@@ -1,18 +1,38 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="logo">
+      <p class="text-logo">OPEN<img alt="M" src="../assets/M.png" class="img-logo">USIC</p>
+    </div>
+    <Genres/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Genres from "@/components/Genres.vue";
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    Genres
   }
 }
 </script>
+
+<style scoped>
+  .logo{
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+
+  }
+  .img-logo{
+    max-width: 10%;
+    vertical-align: text-bottom;
+  }
+  .text-logo{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: underline;
+  }
+</style>

@@ -1,4 +1,4 @@
-# dr
+# DRILLING SESION 3 MODULO 7 VUE - STATE-VUEX
 
 ## Project setup
 ```
