@@ -4,17 +4,20 @@
       <p class="text-logo">OPEN<img alt="M" src="../assets/M.png" class="img-logo">USIC</p>
     </div>
     <Genres/>
+    <AddAlbum/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Genres from "@/components/Genres.vue";
+import AddAlbum from "@/components/AddNewAlbum.vue";
 
 export default {
   name: 'HomeView',
   components: {
-    Genres
+    Genres,
+    AddAlbum
   }
 }
 </script>
